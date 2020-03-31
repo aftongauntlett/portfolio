@@ -23,43 +23,43 @@
   <link rel="manifest" href="/site.webmanifest">
 
   <!-- changed title to name -->
-  <title>Afton Gauntlett - Home</title>
+  <title>Afton Gauntlett - About Me</title>
 </head>
 
-<body>
+<body class="body-all">
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+  <!-- added sticky to navbar-->
+
+  <nav class="row navbar navbar-expand-lg navbar-light bg-light sticky-top p-0 ">
     <a class="navbar-brand" href="index.html">Afton Gauntlett</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="index.html">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
+    <div class="navbar-nav">
+      <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link" href="#">Features</a>
+      <a class="nav-item nav-link" href="#">Pricing</a>
+      <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
     </div>
   </nav>
+
+  <!-- added column and rows, added margin and padding, updated info -->
 
   <div class="container row">
     <div class="card m-5 col-8">
       <div class="card-body">
         <h2 class="card-title pb-4 mb-4">About Me</h2>
-        <img class="my-image-style mr-2" src="assets/images/me2.jpg" alt="Card image cap">
+        <img class="my-image-style mr-3" src="assets/images/me2.jpg" alt="Card image cap">
         <p class="card-text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, facilis corrupti deleniti
-          amet aut reiciendis sunt fugiat maiores, natus officiis dolores doloremque sequi.</p>
-        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, assumenda a. Repellendus
-          consequatur impedit magni corporis perferendis nihil! Esse tempore in alias necessitatibus architecto facere
-          dolorem corrupti optio rem ipsum. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          I am an avid gamer, artist and cook. I have always had a passion for science, space, technology and
+          learning. Focusing on software development, I plan to turn one hobby into a career. I am always looking for
+          new content and information to immerse myself
+          in.</p>
+        <p class="card-text">I am currently enrolled in George Washington University studying full-stack web
+          development. On top of my studies with GWU, I have successfully completed multiple Udemy courses focused on
+          CSS,
+          Bootstrap
+          and Javascript. After graduation, my goal is to have the knowledge and confidence to become a front end web
+          developer. I plan on studying Vue.js and other front end frame works. I would also like to learn Firebase
+          and
+          Python as used for backend web servers.</p>
 
       </div>
     </div>
