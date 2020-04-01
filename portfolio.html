@@ -1,52 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- attached link to styles.css below -->
-  <link rel="stylesheet" type="text/css" href="/homework/gwu_homework_02/assets/css/style.css">
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 
-<!-- attached links for bootstrap below -->
+  <!-- attached links for bootstrap below -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<!-- attached links for google fonts below -->
+  <!-- attached links for google fonts below -->
   <link href="https://fonts.googleapis.com/css?family=Martel&display=swap" rel="stylesheet">
 
-   <!-- attached link to favicons below -->
-   <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
-   <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
-   <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
-   <link rel="manifest" href="/site.webmanifest">
+  <!-- attached link to favicons below -->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
 
-  <title>Afton Gauntlett - Projects</title>
+  <title>Afton Gauntlett - Portfolio</title>
 </head>
 
 <body>
-  
-  <h1>Projects</h1>
 
-  <div class="card" style="width: 18rem;">
-    <img src="assets/images/stockmainlogo.png" class="card-img-top" alt="">
-    <div class="card-body">
-      <h5 class="card-title">Visit MAGStock</h5>
-      <p class="card-text">Volunteer and Web Designer</p>
-      <a href="https://magstock.org/" target="blank" class="btn btn-primary">Visit MAGStock</a>
-    </div>
-
-    <div class="card" style="width: 18rem;">
-      <img src="assets/images/BC.png" class="card-img-top" alt="Baysil Creations logo">
-      <div class="card-body">
-        <h5 class="card-title">Baysil Creations</h5>
-        <p class="card-text">Owner and Web Designer</p>
-        <a href="https://aftongauntlett.github.io/baysil_creations/" target="blank" class="btn btn-primary">Visit Baysil Creations</a>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top p-0">
+    <div class="row w-100">
+      <a class="navbar-brand col-12 col-lg-3 px-auto mr-0" href="#">Afton Gauntlett</a>
+      <div class="navbar-nav mx-auto col-12 col-lg-9">
+        <div class="row w-100">
+          <div class="col-3 col-lg-6">
+          </div>
+          <div class="col-2">
+            <a class="nav-item nav-link active" href="index.html">Home</a>
+          </div>
+          <div class="col-2">
+            <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+          </div>
+          <div class="col-2">
+            <a class="nav-item nav-link" href="contact.html">Contact</a>
+          </div>
+        </div>
       </div>
     </div>
+  </nav>
 
+  <!-- again, copied a lot of what I had done with the columns and rows from the contact and index pages. Added cards and image overlay with a width of 100. -->
+
+  <div class="container">
+    <div class="row">
+      <div class="card col-12 mt-4 col-lg-8">
+        <h2 class="card-title pb-4 mb-4 pt-4">Portfolio</h2>
+        <div class="container">
+          <div class="row">
+
+            <div class="card col-lg-6">
+              <img class="card-img" src="assets/images/sumia.jpg" alt="Card image cap">
+              <div class="card-img-overlay">
+                <div class="mt-auto text-overlay w-100">
+                  Glare
+                </div>
+
+              </div>
+            </div>
+
+            <div class="card col-lg-6">
+              <img class="card-img" src="assets/images/sumia-box.jpg" alt="Card image cap">
+              <div class="card-img-overlay">
+                <div class="mt-auto text-overlay w-100">
+                  Rawr
+                </div>
+
+              </div>
+            </div>
+
+            <div class="card col-lg-6">
+              <img class="card-img" src="assets/images/sumia.jpg" alt="Card image cap">
+              <div class="card-img-overlay">
+                <div class="mt-auto text-overlay w-100">
+                  Meow
+                </div>
+              </div>
+            </div>
+
+            <div class="card col-lg-6">
+              <img class="card-img" src="assets/images/sumia-box.jpg" alt="Card image cap">
+              <div class="card-img-overlay">
+                <div class="mt-auto text-overlay w-100">
+                  Purr
+                </div>
+              </div>
+            </div>
+
+            <div class="card col-lg-6">
+              <img class="card-img" src="assets/images/sumia.jpg" alt="Card image cap">
+              <div class="card-img-overlay">
+                <div class="mt-auto text-overlay w-100">
+                  Hiss
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
   </div>
 
-  
+
   <!-- <div class="card" style="width: 18rem;">
     <img src="assets/images/nasa.jpg" class="card-img-top" alt="...">
     <div class="card-body">
@@ -55,4 +119,5 @@
   </div> -->
 
 </body>
+
 </html>

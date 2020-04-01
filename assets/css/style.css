@@ -16,6 +16,11 @@ img {
   border-radius: 50%;
 }
 
+.portfolio-image {
+   width: 30%;
+  height: auto;
+}
+
 .card-title {
   border-bottom: 2px solid rgba(210, 204, 218, 0.514);
   font-family: 'Martel', serif;
@@ -52,6 +57,18 @@ textarea {
   height: 150px !important;
 }
 
+.card-img-overlay {
+  display: flex;
+}
+
+.text-overlay {
+  color: beige;
+  background-color: teal;
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Martel', serif;
+  padding: 1em;
+}
 /* I know we can't use copywritten images found in google in RL, but figured it was okay for the class */
 
 body {
