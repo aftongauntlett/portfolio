@@ -78,3 +78,10 @@ body {
       background-attachment: fixed;
       background-size: cover;
     }
+
+    .copyright {
+      text-align: center;
+      color: rgba(245, 222, 179, 0.664);
+      padding-top: 100px;
+      padding-bottom: 25px;
+    }
