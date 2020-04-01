@@ -47,11 +47,16 @@ img {
   text-align: center;
 }
 
+textarea {
+  width: 100% !important;
+  height: 150px !important;
+}
+
 /* I know we can't use copywritten images found in google in RL, but figured it was okay for the class */
 
 body {
-      background-image: url('https://desktopwalls.net/wp-content/uploads/2018/12/Cat%20Looking%20Up%20Eye%20Closeup%20Dark%20Desktop%20Wallpaper.jpg');
-      /* background-image: url('../images/desktop.jpg'); */
+      /* background-image: url('https://desktopwalls.net/wp-content/uploads/2018/12/Cat%20Looking%20Up%20Eye%20Closeup%20Dark%20Desktop%20Wallpaper.jpg'); */
+      background-image: url('../images/desktop.jpg');
       background-repeat: no-repeat;
       background-attachment: fixed;
       background-size: cover;
