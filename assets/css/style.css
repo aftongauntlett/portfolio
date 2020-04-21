@@ -6,7 +6,6 @@ p {
 
 img {
   width: auto;
-  height: 250px
 }
 
 .my-image-style {
@@ -34,6 +33,13 @@ img {
 
 .card {
   opacity: 90%;
+  text-align: center;
+  padding: 20px;
+  margin: 40px;
+}
+
+.portfolioCard {
+  justify-content: center;
 }
 
 .navbar {
