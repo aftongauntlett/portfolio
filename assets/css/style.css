@@ -120,4 +120,8 @@ body {
 .grad {
   font-weight: 800;
 }
-  
+
+#contactCard {
+  display: flex;
+  justify-content: center;
+}
