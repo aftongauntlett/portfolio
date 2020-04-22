@@ -31,8 +31,13 @@ img {
   text-align: center;
   padding: 20px;
   margin: 40px;
+  font-family: 'Martel', serif;
 }
 
+#homeCards {
+  padding-top: 300px;
+  opacity: 80%;
+}
 
 textarea {
   width: 100% !important;
@@ -86,6 +91,10 @@ textarea {
     padding-top: 600px;
     text-align: center;
 
+  }
+
+  #homeCards {
+    padding-top: unset;
   }
 }
 
