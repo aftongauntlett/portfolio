@@ -62,8 +62,11 @@ textarea {
 #copyrightHome {
   text-align: center;
   padding-top: 500px;
-  padding-bottom: 15px;
   color: rgba(245, 222, 179, 0.664);
+}
+
+#titleHome {
+  margin-top: 150px;
 }
 
 #homeName {
@@ -71,6 +74,19 @@ textarea {
   font-family: 'Martel', serif;
   text-align: center;
   color: rgba(92, 81, 100, 0.863);
+}
+
+@media only screen and (max-width: 600px) {
+  #titleHome {
+    margin-top: 50px;
+    text-align: center;
+
+  }
+  #copyrightHome {
+    padding-top: 600px;
+    text-align: center;
+
+  }
 }
 
 #homeTitle{
