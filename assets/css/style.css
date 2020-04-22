@@ -9,7 +9,6 @@ img {
 }
 
 .my-image-style {
-  /* float: left; */
   width: 30%;
   height: 30%;
   border-radius: 50%;
@@ -27,10 +26,6 @@ img {
   color: rgb(46, 40, 40);
 }
 
-.body-all {
-  background-color: rgb(210, 204, 218);
-}
-
 .card {
   opacity: 90%;
   text-align: center;
@@ -39,24 +34,9 @@ img {
 }
 
 .portfolioCard {
-  justify-content: center;
+align-content: center;
 }
 
-.navbar {
-  opacity: 90%;
-}
-
-.navbar-brand {
-  background-color: #e0dae6;
-  opacity: 90%;
-  font-size: 22px !important;
-  text-align: center;
- 
-}
-
-.nav-link {
-  text-align: center;
-}
 
 textarea {
   width: 100% !important;
@@ -75,19 +55,64 @@ textarea {
   font-family: 'Martel', serif;
   padding: 1em;
 }
-/* I know we can't use copywritten images found in google in RL, but figured it was okay for the class */
+
+#copyright {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 15px;
+  color: rgba(245, 222, 179, 0.664);
+}
+
+#copyrightHome {
+  text-align: center;
+  padding-top: 500px;
+  padding-bottom: 15px;
+  color: rgba(245, 222, 179, 0.664);
+}
+
+#homeName {
+  font-size: 60px;
+  font-family: 'Martel', serif;
+  text-align: center;
+  padding-top: 175px;
+  color: rgba(92, 81, 100, 0.863);
+}
+
+#homeTitle{
+  font-size: 30px;
+  font-family: 'Martel', serif;
+  text-align: center;
+  color: rgba(128, 112, 143, 0.493);
+
+}
 
 body {
-      /* background-image: url('https://desktopwalls.net/wp-content/uploads/2018/12/Cat%20Looking%20Up%20Eye%20Closeup%20Dark%20Desktop%20Wallpaper.jpg'); */
-      background-image: url('../images/desktop.jpg');
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-size: cover;
-    }
+  background-image: url(../images/desktop.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
 
-    .copyright {
-      text-align: center;
-      color: rgba(245, 222, 179, 0.664);
-      padding-top: 100px;
-      padding-bottom: 25px;
-    }
+.centered {
+   display: flex;
+   justify-content: space-between;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+.gwu {
+   display: flex;
+   justify-content: center;
+   padding-bottom: 20px;
+}
+
+.gwu-card {
+  background-color: rgb(222, 225, 238);
+  /* height: 300px; */
+}
+
+.cert {
+  padding-top: 30px;
+  font-size: 22px;
+}
+  
