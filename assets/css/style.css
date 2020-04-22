@@ -33,10 +33,6 @@ img {
   margin: 40px;
 }
 
-.portfolioCard {
-align-content: center;
-}
-
 
 textarea {
   width: 100% !important;
@@ -83,7 +79,6 @@ textarea {
   font-family: 'Martel', serif;
   text-align: center;
   color: rgba(128, 112, 143, 0.493);
-
 }
 
 body {
@@ -100,6 +95,13 @@ body {
    flex-wrap: wrap;
 }
 
+.portfolioCard {
+   display: flex;
+   justify-content: space-between;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
 .gwu {
    display: flex;
    justify-content: center;
@@ -108,7 +110,6 @@ body {
 
 .gwu-card {
   background-color: rgb(222, 225, 238);
-  /* height: 300px; */
 }
 
 .cert {
