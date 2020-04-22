@@ -145,5 +145,8 @@ a:visited {
 #resume {
     font-family: 'Martel', serif;
     font-size: 30px;
-    
+}
+
+iframe, object, embed {
+    max-width: 100%;
 }
