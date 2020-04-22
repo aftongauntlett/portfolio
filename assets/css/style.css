@@ -112,9 +112,10 @@ body {
   background-color: rgb(222, 225, 238);
 }
 
-.cert {
-  padding-top: 30px;
-  font-size: 22px;
+.certs {
+  font-family: 'Martel', serif;
+  font-size: 25px;
+  text-align: center;
 }
 
 .grad {
@@ -124,4 +125,25 @@ body {
 #contactCard {
   display: flex;
   justify-content: center;
+}
+
+.contact-me {
+  opacity: unset !important;
+}
+
+a:link {
+  color: rgba(77, 96, 206, 0.787);
+  font-family: 'Martel', serif;
+
+}
+
+a:visited {
+  color: rgb(0, 0, 0);
+  font-family: 'Martel', serif;
+}
+
+#resume {
+    font-family: 'Martel', serif;
+    font-size: 30px;
+    background-color: rgba(255, 255, 255, 0.5);
 }
