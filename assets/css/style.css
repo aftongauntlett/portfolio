@@ -70,7 +70,6 @@ textarea {
   font-size: 60px;
   font-family: 'Martel', serif;
   text-align: center;
-  padding-top: 175px;
   color: rgba(92, 81, 100, 0.863);
 }
 
@@ -142,11 +141,3 @@ a:visited {
   font-family: 'Martel', serif;
 }
 
-#resume {
-    font-family: 'Martel', serif;
-    font-size: 30px;
-}
-
-iframe, object, embed {
-    max-width: 100%;
-}
