@@ -98,7 +98,15 @@ textarea {
   #copyrightHome {
     padding-top: 600px;
     text-align: center;
-    padding-top: 15px;
+    padding-top: 90px;
+  }
+
+  #homeName{
+font-size: 30px;
+  }
+
+  #homeTitle{
+    font-size: 100px;
   }
 
   #homeCards {
