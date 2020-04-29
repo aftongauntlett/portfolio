@@ -61,13 +61,13 @@ textarea {
   text-align: center;
   padding-top: 100px;
   padding-bottom: 15px;
-  color: rgba(245, 222, 179, 0.664);
+  color: rgba(215, 203, 223, 0.863);
 }
 
 #copyrightHome {
   text-align: center;
   padding-top: 45px;
-  color: rgba(245, 222, 179, 0.664);
+  color: rgba(215, 203, 223, 0.863);
 }
 
 #titleHome {
@@ -78,7 +78,15 @@ textarea {
   font-size: 60px;
   font-family: 'Martel', serif;
   text-align: center;
-  color: rgba(92, 81, 100, 0.863);
+  color: rgba(230, 223, 235, 0.925);
+}
+
+
+#homeTitle{
+  font-size: 30px;
+  font-family: 'Martel', serif;
+  text-align: center;
+  color: rgba(215, 203, 223, 0.863);
 }
 
 @media only screen and (max-width: 600px) {
@@ -98,15 +106,9 @@ textarea {
   }
 }
 
-#homeTitle{
-  font-size: 30px;
-  font-family: 'Martel', serif;
-  text-align: center;
-  color: rgba(128, 112, 143, 0.493);
-}
 
 body {
-  background-image: url(../images/desktop.jpg);
+  background-image: url(../images/desktop2.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
