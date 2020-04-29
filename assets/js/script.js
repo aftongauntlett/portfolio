@@ -26,4 +26,3 @@ var x = setInterval(function () {
         document.getElementById("gwuEnd").innerHTML = "Complete!";
     }
 }, 1000);
-

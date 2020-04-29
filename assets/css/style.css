@@ -122,6 +122,23 @@ body {
   background-size: cover;
 }
 
+.dark-mode body {
+  background-image: url(../images/desktop.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.dark-mode {
+  background-color: rgb(26, 26, 26);
+  color: white;
+}
+
+#darkMode {
+  margin: 20px;
+}
+
+
 .centered {
    display: flex;
    justify-content: space-between;
@@ -175,4 +192,3 @@ a:visited {
   color: rgb(0, 0, 0);
   font-family: 'Martel', serif;
 }
-
