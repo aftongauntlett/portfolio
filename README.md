@@ -1,27 +1,28 @@
 # Portfolio
 
+![GitHub last commit](https://img.shields.io/github/last-commit/aftongauntlett/portfolio)
+
 ![GitHub followers](https://img.shields.io/github/followers/aftongauntlett?style=social)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
-Developed By: https://github.com/aftongauntlett
+**Github Repo:** https://github.com/aftongauntlett
 
-Email: aftongauntlett@gmail.com
-
-Website: http://aftongauntlett.com/
+**Deployed:** http://aftongauntlett.com/
 
 
 ## Description
-Personal portfolio built using:
+Personal portfolio built using the following technologies:
 
 * HTML
-
 * CSS
-
 * Bootstrap
-
 * JavaScript
+
+## Screenshot:
+
+![Front Page of portfolio](https://i.imgur.com/Ah4VGZc.jpg)
 
 
 ## License
