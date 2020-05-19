@@ -1,10 +1,9 @@
 # Portfolio
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/aftongauntlett/portfolio)
-
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![GitHub followers](https://img.shields.io/github/followers/aftongauntlett?style=social)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
 **Github Repo:** https://github.com/aftongauntlett
