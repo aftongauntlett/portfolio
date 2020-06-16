@@ -92,6 +92,12 @@ textarea {
   color: rgba(215, 203, 223, 0.863);
 }
 
+ul {
+  list-style: none;
+  list-style-type: none;
+  padding: unset;
+}
+
 @media only screen and (max-width: 600px) {
   #titleHome {
     margin-top: 50px;
