@@ -52,6 +52,16 @@ img {
   font-size: 25px !important;
 }
 
+.hireMe {
+  font-size: 20px !important;
+  padding: unset;
+  opacity: 70%;
+}
+
+.hireMeText {
+  margin: unset;
+  padding: unset;
+}
 /* hover effects */
 
 .pCards:hover {
@@ -67,16 +77,24 @@ img {
   opacity: 100%;
 }
 
-.techStack:hover{
+.hireMe:hover {
+  transition: 02;
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
   transition: all 0.3s ease;
 }
 
-.techStack{
+.techStack:hover {
+  transition: all 0.3s ease;
+}
+
+.techStack {
   line-height: 200%;
   color: rgb(0, 0, 0);
 }
 
-.contactCard:hover{
+.contactCard:hover {
   transition: 02;
   -webkit-transform: scale(1.3);
   -ms-transform: scale(1.3);
@@ -106,6 +124,7 @@ img {
 
 .contact-me {
   opacity: unset;
+  background-color: rgba(240, 227, 240, 0.815) !important;
 }
 
 .aboutMeCard {
@@ -183,45 +202,50 @@ ul {
     margin-top: 50px;
     text-align: center;
   }
-  
-  .navbar{
+
+  .navbar {
     font-size: 15px;
   }
-  
+
   .homeName {
     font-size: 30px;
   }
-  
+
   .homeTitle {
     font-size: 25px;
   }
-  
+
   #homeCards {
     padding-top: unset;
   }
-  
+
   .hCards {
     font-size: 18px !important;
     opacity: 100%;
   }
-  
+
+  .hireMe {
+    font-size: 18px !important;
+    opacity: 100%;
+  }
+
   .contactCard {
     padding-bottom: unset;
   }
-  
+
   .contact-me {
     width: 15rem !important;
   }
-  
+
   .aboutText {
     font-size: 15px;
   }
-  
+
   .aboutMeCard {
     margin: unset;
     padding: unset;
   }
-  
+
   .techStack {
     line-height: normal;
   }
