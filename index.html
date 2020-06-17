@@ -41,56 +41,58 @@
     <title>Afton Gauntlett</title>
   </head>
 
-  <body>
-    <nav class="dark-mode navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="index.html">Home</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
+  <body class="d-flex">
+    <div class="content">
+      <nav class="dark-mode navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Home</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-item nav-link" href="aboutme.html">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-item nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="titleHome slow">
+        <h1 class="homeName">Afton Gauntlett</h1>
+        <p class="homeTitle">Wev Developer</p>
+      </div>
+
+      <div id="homeCards" class="slow d-flex justify-content-center centered">
+        <div class="card hCards" style="width: 18rem;">
+          <div class="card-body">
             <a class="nav-item nav-link" href="aboutme.html">About Me</a>
-          </li>
-          <li class="nav-item">
+          </div>
+        </div>
+
+        <div class="card hCards" style="width: 18rem;">
+          <div class="card-body">
             <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-          </li>
-          <li class="nav-item">
+          </div>
+        </div>
+
+        <div class="card hCards" style="width: 18rem;">
+          <div class="card-body">
             <a class="nav-item nav-link" href="contact.html">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-
-    <div id="titleHome">
-      <h1 id="homeName">Afton Gauntlett</h1>
-      <p id="homeTitle">Wev Developer</p>
-    </div>
-
-    <div id="homeCards" class="d-flex justify-content-center centered">
-      <div class="card" style="width: 18rem;">
-        <div class="card-body">
-          <a class="nav-item nav-link" href="aboutme.html">About Me</a>
-        </div>
-      </div>
-
-      <div class="card" style="width: 18rem;">
-        <div class="card-body">
-          <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-        </div>
-      </div>
-
-      <div class="card" style="width: 18rem;">
-        <div class="card-body">
-          <a class="nav-item nav-link" href="contact.html">Contact</a>
+          </div>
         </div>
       </div>
     </div>
@@ -111,7 +113,11 @@
       crossorigin="anonymous"
     ></script>
 
-    <div id="copyrightHome">&copy; 2020 Copyright Afton Gauntlett</div>
+    <footer class="footer d-flex justify-content-center">
+      <p>
+        2020 Copyright Afton Gauntlett
+      </p>
+    </footer>
 
     <script src="./assets/js/darkmode.js"></script>
   </body>

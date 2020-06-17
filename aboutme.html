@@ -18,7 +18,7 @@
   <title>Afton Gauntlett - About Me</title>
 </head>
 
-<body>
+<body class="d-flex">
 
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="index.html">Home</a>
@@ -41,16 +41,16 @@
     </div>
   </nav>
 
-  <div class="container aboutMeCard">
-    <div class="card aboutMeCard">
+  <div class="container">
+    <div class="card aboutMeCard slow">
       <div class="card-body">
         <h3 class="card-title pb-4 mb-4">About Me</h3>
         <div class="card-text mt-3 mt-md-0">
-          <p>I am a passionate Front End Web Developer and a technology-minded individual. I am forward thinking and inspired by
+          <p class="aboutText">I am a passionate Front End Web Developer and a technology-minded individual. I am forward thinking and inspired by
           design and usability with a natural orientation towards collaborative innovation. I have a multi-disciplinary background
-          in research and entrepreneurship applying skills in design and research-based methodologies.</p><p>As a recent graduate from George Washington University’s Full Stack Web Development Boot Camp, I have honed skills in the following:</p> 
+          in research and entrepreneurship applying skills in design and research-based methodologies.</p><p class="aboutText">As a recent graduate from George Washington University’s Full Stack Web Development Boot Camp, I have honed skills in the following:</p> 
           <br>
-          <div class="container d-flex justify-content-center">
+          <div class="container d-flex justify-content-center pb-2">
             <div class="row w-100">
               <div class="col-md-6">
                 <ul>
@@ -84,6 +84,13 @@
                 </div>
               </div>
             </div>
+
+            <div>
+              <a href="/contact.html" class="aboutButton btn btn-dark btn-lg active" role="button" aria-pressed="true">Contact</a>
+            <div class="divider"></div>
+              <a href="/portfolio.html" class="aboutButton btn btn-dark btn-lg active" role="button" aria-pressed="true">Portfolio</a>
+            </div>
+
           <div id="logos">
             <a href="https://www.linkedin.com/in/afton-gauntlett/"><i
                 class="fa fa-linkedin-square fa-2x pr-3 text-dark"></i></a>
@@ -108,8 +115,12 @@
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
     crossorigin="anonymous"></script>
 
-  <div id="copyright"> &copy; 2020 Copyright Afton Gauntlett</div>
-
+    <footer class="footer d-flex justify-content-center">
+    <p>
+      2020 Copyright Afton Gauntlett
+    </p>
+  </footer>
+    
   <script src="./assets/js/script.js"></script>
   <script src="./assets/js/darkmode.js"></script>
 
