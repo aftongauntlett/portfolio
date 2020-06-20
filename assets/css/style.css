@@ -124,7 +124,13 @@ img {
 
 .contact-me {
   opacity: unset;
-  background-color: rgba(240, 227, 240, 0.815) !important;
+  background-color: rgb(233, 238, 241) !important;
+}
+
+.contactButton {
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
 }
 
 .aboutMeCard {
