@@ -127,12 +127,6 @@ img {
   background-color: rgb(233, 238, 241) !important;
 }
 
-.contactButton {
-  /* display: flex; */
-  justify-content: center;
-  align-items: center;
-}
-
 .aboutMeCard {
   padding-top: 40px;
 }
