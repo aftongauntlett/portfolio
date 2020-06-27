@@ -249,6 +249,12 @@ ul {
   .techStack {
     line-height: normal;
   }
+
+  .aboutButton2 {
+    margin-bottom: 20px;
+    opacity: 80%;
+    margin-left: 20px;
+  }
 }
 /* end */
 
